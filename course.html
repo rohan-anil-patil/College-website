@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="veiwport" content="with=device-width,initial-scale=1.0">
+    <title>college management</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/logo2.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                   <li> <a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li> <a href="course.html">COURSE</a></li>
+                    <li> <a href="admission.html">ADMISSSION</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+     <h1>Our Courses</h1>
+
+
+    </section>
+    
+ 
+    <!------Course------->
+      <section class="course">
+        <h1>Course We Offer</h1>
+        <p>Develop Your Personality And Get Opportunity Across The World </p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Computer Engineering</h3>
+                <p>Computer engineering is a branch of electrical engineering and computer science that integrates several fields of computer science and electronic engineering required to develop computer hardware and software</p>
+            </div>
+            
+            <div class="course-col">
+                <h3>Information Technology</h3>
+                <p>Information technology (IT) is the use of computers to create, process, store, retrieve and exchange all kinds of data and information.</p>
+            </div>
+            
+            <div class="course-col">
+                <h3>Artificial intelligence and data science</h3>
+                <p>AI is the intelligence demonstrated by machines, while data science is an interdisciplinary field that uses statistics, scientific computing, methods, processes, algorithms and systems to extract knowledge and insights from data.</p>
+            </div>
+          </div>
+          <div class="row">
+              <div class="course-col">
+                <h3>Computer science Engineering</h3>
+                <p>Computer science engineering includes the study of design, computational processes and programming languages. Students get to learn technical know-how about how to develop a variety of hardwares and softwares and gain knowledge about communications systems and other similar devices.</p>
+            </div>
+            <div class="course-col">
+                <h3>Electronic and telecommunication Engineering</h3>
+                <p>Electronics and telecommunication engineering is the design, fabrication, production, testing and operation of electronic devices, circuits, systems and networks.s</p>
+            </div>
+            
+            <div class="course-col">
+                <h3>Mechanical Engineering</h3>
+                <p>Mechanical engineering is an engineering branch that combines engineering physics and mathematics with materials science to design, analyze, manufacture, and maintain mechanical systems.</p>
+            </div>
+        </div>
+
+    </section>
+    
+    
+    
+    
+    
+    
+    
+     <!------Footer------->
+     <section class="footer">
+         <h4>About Us</h4>
+         <p>Wel-Come to Konkan Gyanpeeth College Of Engineering, Karjat.
+                <br>Affiliated to University of Mumbai, Approved by AICTE, New Delhi</p>
+                <div class="ions">
+                     <i class="fab fa-facebook"></i>
+                     <i class="fab fa-instagram"></i>
+                     <i class="fab fa-twitter" ></i>
+                     <i class="fab fa-linkedin" ></i>
+                     
+                </div>
+                <p>Made With <i class="far fa-heart"></i> By KGCE </p>
+     </section>
+     
+     
+     
+     
+
+    <!------javascripts for------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+
+
+
+
+</body>
+
+</html>
